@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Nav from '../components/nav'
 
 const Home = () => (
-  <div>
+  <>
     <Head>
       <title>Home</title>
       <link rel="icon" href="/favicon.ico" />
@@ -82,7 +82,7 @@ const Home = () => (
         color: #333;
       }
     `}</style>
-  </div>
+  </>
 )
 
 export default Home
