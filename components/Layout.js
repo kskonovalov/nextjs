@@ -1,9 +1,13 @@
 import React from 'react';
+import Head from 'next/dist/next-server/lib/head';
 import Nav from './Nav';
 
 const Layout = ({ children }) => {
   return (
     <>
+      <Head>
+        <title>NextJS</title>
+      </Head>
       <Nav />
       {children}
 
