@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.7.2",
+    "eslint": "^9.15.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-jest-enzyme": "^7.1.2",
     "eslint-config-prettier": "^6.7.0",
